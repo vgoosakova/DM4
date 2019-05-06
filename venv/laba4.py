@@ -120,9 +120,9 @@ class Main:
     def variant(self):
         Variant = Toplevel(root)
         Variant.title("Варіант")
-        l = Label(Variant, text="Андрійчук Дмитро", font=("Arial", 18))
+        l = Label(Variant, text="Гусакова Вікторія", font=("Arial", 18))
         l.grid(row=0, column=0)
-        l = Label(Variant, text="Номер розрахункової - 6401", font=("Arial", 18))
+        l = Label(Variant, text="Номер залікової - 8207", font=("Arial", 18))
         l.grid(row=1, column=0)
         l = Label(Variant, text="Варіант - 6", font=("Arial", 18))
         l.grid(row=2, column=0)
